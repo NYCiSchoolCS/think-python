@@ -2075,6 +2075,13 @@ In&nbsp;[2]:
 </ul>
 <p><strong>Question 1:</strong> What is 28 % 5?</p>
 <p><strong>Question 2:</strong> How we would check if a number is odd using modulo?</p>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="extra-questions">Extra Questions</h2>
+<ul>
+<li>Try 5/2. What do you get as an answer? What about 5.0/2?</li>
+</ul>
+<p>Do some experimentation and see what's going on.</p>
 </div></section>
     </section><section>
     <section>
@@ -2104,12 +2111,12 @@ In&nbsp;[2]:
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="and-thats-basically-it">And that's basically it!</h2>
 </div>
-    </div></section>
-    </section><section>
-    <section>
+    </div><div style=display:none>
+    
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="your-first-program">Your first program</h1>
-</div></section>
+</div>
+    </div></section>
     </section><section>
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -2119,21 +2126,8 @@ In&nbsp;[2]:
 <div class="figure">
 <img src="http://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg" alt="Computer Bug" /><p class="caption">Computer Bug</p>
 </div>
-</div></section><section>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="syntax-errors">Syntax Errors</h1>
-<ul>
-<li><strong>Syntax</strong> refers to the structure of a program and the rules about that structure.
-<ul>
-<li><strong>Example:</strong> (1 + 2) is legal, but (1 is not legal</li>
-</ul></li>
-<li>You can think of syntax like grammar in English.
-<ul>
-<li><strong>Example:</strong> &quot;What are you eating?&quot; is legal but &quot;What are you eating.&quot; is not legal</li>
-</ul></li>
-</ul>
-<h3 id="if-there-is-1-syntax-error-python-will-give-you-an-error-message-and-quit">If there is 1 syntax error, Python will give you an error message and quit</h3>
-</div></section><section>
+</div><div style=display:none>
+    
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="runtime-errors">Runtime Errors</h1>
 <p><strong>Runtime Errors</strong> do not appear until after the program has started running.</p>
@@ -2141,7 +2135,9 @@ In&nbsp;[2]:
 <li>These errors are also called <strong>exceptions</strong> because they usually indicate that something exceptional (and bad) has happened.</li>
 <li><strong>Example</strong>: During the execution of a program, you ask the computer to do 8/0</li>
 </ul>
-</div></section><section>
+</div>
+    </div><div style=display:none>
+    
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="semantic-errors">Semantic Errors</h2>
 <p>If your program has <strong>semantic errors</strong>, you will be able to run it without getting any error messages, but it will not do the right thing. It will do something else.</p>
@@ -2156,12 +2152,417 @@ In&nbsp;[2]:
 <li>&quot;Colourless green ideas sleep furiously.&quot;</li>
 </ul></li>
 </ul>
+</div>
+    </div><div style=display:none>
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="formal-and-natural-languages">Formal and natural languages</h1>
+</div>
+    </div></section>
+    </section><section>
+    <section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="values">Values</h1>
+<p>A <strong>value</strong> is one of the basic things a program works with, like a letter or a number. For example: 1, 2, and 'Hello, World!'.</p>
+<p>These values belong to different <strong>types</strong>:</p>
+<ul>
+<li><strong>Integer</strong></li>
+<li><strong>String</strong></li>
+<li><strong>Float</strong></li>
+</ul>
+<p>You have already seen integers and strings:</p>
+<ul>
+<li>2 is an <strong>integer</strong></li>
+<li>'Hello, World!' is a <strong>string</strong>.</li>
+</ul>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="you-can-check-what-type-a-value-is-by-using-the-type-function.">You can check what type a value is by using the type function.</h3>
+</div><div class="fragment">
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[3]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="s">&#39;Hello, World!&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt output_prompt">
+    Out[3]:</div>
+<div class="box-flex1 output_subarea output_pyout">
+
+
+<pre>
+str
+</pre>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[4]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt output_prompt">
+    Out[4]:</div>
+<div class="box-flex1 output_subarea output_pyout">
+
+
+<pre>
+int
+</pre>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div><div class="fragment">
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Less obviously, numbers with a decimal point belong to a type called <strong>float</strong>.</p>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[5]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="mf">5.4</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt output_prompt">
+    Out[5]:</div>
+<div class="box-flex1 output_subarea output_pyout">
+
+
+<pre>
+float
+</pre>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><p><strong>Question 1:</strong> What is type('17')?</p></li>
+<li><p><strong>Question 2:</strong> What is type(17)?</p></li>
+<li><p><strong>Question 3:</strong> What is type(17.0)?</p></li>
+<li><p><strong>Question 4:</strong> What is type (1,000)?</p></li>
+</ul>
 </div></section>
     </section><section>
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="formal-and-natural-languages">Formal and natural languages</h1>
+<h1 id="variables">Variables</h1>
+<p>A <strong>variable</strong> is a name that refers to a value.</p>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>An <strong>assignment statement</strong> creates new variables and gives them values:</p>
+<p>&gt;&gt;&gt; message = 'And now for something completely different'</p>
+<p>&gt;&gt;&gt; n = 17</p>
+<p>&gt;&gt;&gt; pi = 3.1415926535897932</p>
+</div><div class="fragment">
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Note:</strong> The type of a variable is the type of the value it refers to. So, type(pi) is a <strong>float</strong>.</p>
+</div>
+    </div></section>
+    </section><section>
+    <section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="practice">Practice</h1>
+<p>The volume of a sphere with radius r is 4/3 π r<sup>3</sup>. What is the volume of a sphere with radius 5?</p>
+<p><strong>￼￼Hint:</strong> The variable pi is already in Spyder.</p>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="exploring-variable-names">Exploring Variable Names</h1>
+<ul>
+<li><p>What happens when you try to use a variable before you assign it a value?</p></li>
+<li><p>What happens if you try to make a variable that starts with a number?</p></li>
+<li><p>Are two variables with the same name but different capitalization the same variable?</p></li>
+<li><p>What does the following code do?</p></li>
+</ul>
+<p><code>a, b = 1, 2</code></p>
+<ul>
+<li>What are the final values of x and y?</li>
+</ul>
+<p><code>x = 4</code></p>
+<p><code>y = x + 1</code></p>
+<p><code>x = 2</code></p>
+<ul>
+<li>What is the final value of x?</li>
+</ul>
+<p><code>x = 4</code></p>
+<p><code>x = x + 1</code></p>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="challenge-question">Challenge Question</h3>
+<ul>
+<li>If you type an integer with a leading zero, you might get a confusing error:</li>
+</ul>
+<p>&gt;&gt;&gt; zipcode = 02492</p>
+<p><strong>SyntaxError: invalid token</strong></p>
+<p>Other numbers seem to work, but the results are bizarre:</p>
+<p>&gt;&gt;&gt; zipcode = 02132</p>
+<p>&gt;&gt;&gt; zipcode</p>
+<p>1114</p>
+<p>Can you figure out what is going on? Hint: display the values 01, 010, 0100 and 01000.</p>
+</div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="syntax-errors">Syntax Errors</h2>
+<ul>
+<li><p><strong>Syntax</strong> refers to the structure of a program and the rules about that structure.</p>
+<ul>
+<li><strong>Example:</strong> (1 + 2) is legal, but (1 is not legal</li>
+</ul></li>
+<li><p>You can think of syntax like grammar in English.</p>
+<ul>
+<li><strong>Example:</strong> &quot;What are you eating?&quot; is legal but &quot;What are you eating.&quot; is not legal</li>
+</ul></li>
+</ul>
+<h3 id="if-there-is-1-syntax-error-python-will-give-you-an-error-message-and-quit">If there is 1 syntax error, Python will give you an error message and quit</h3>
+</div><div class="fragment">
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[10]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="mi">76</span><span class="n">ers</span> <span class="o">=</span> <span class="s">&#39;my favorite team&#39;</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_pyerr">
+<pre>
+<span class="ansicyan">  File </span><span class="ansigreen">&quot;&lt;ipython-input-10-5a69dcc7bb33&gt;&quot;</span><span class="ansicyan">, line </span><span class="ansigreen">1</span>
+<span class="ansired">    76ers = &apos;my favorite team&apos;</span>
+      ^
+<span class="ansired">SyntaxError</span><span class="ansired">:</span> invalid token
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[11]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="p">(</span><span class="mi">7</span> <span class="o">-</span> <span class="mi">4</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_pyerr">
+<pre>
+<span class="ansicyan">  File </span><span class="ansigreen">&quot;&lt;ipython-input-11-041fd9286cb7&gt;&quot;</span><span class="ansicyan">, line </span><span class="ansigreen">1</span>
+<span class="ansired">    (7 - 4</span>
+          ^
+<span class="ansired">SyntaxError</span><span class="ansired">:</span> unexpected EOF while parsing
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div><div style=display:none>
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="division-weirdness">Division Weirdness</h1>
+<p>&gt;&gt;&gt; minute = 59</p>
+<p>&gt;&gt;&gt; minute / 60</p>
+</div>
+    </div><div style=display:none>
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[12]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="mi">59</span><span class="o">/</span><span class="mi">60</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt output_prompt">
+    Out[12]:</div>
+<div class="box-flex1 output_subarea output_pyout">
+
+
+<pre>
+0
+</pre>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div><div style=display:none>
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Python is performing <strong>floor division</strong>. When both of the operands are integers, the result is also an integer.</p>
+<h4 id="floor-division-chops-off-the-fraction-part.">Floor division chops off the fraction part.</h4>
+</div>
+    </div></section>
+    </section><section>
+    <section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="string-operations">String Operations</h2>
+<p>In general, you cannot perform mathematical operations on strings, even if the string looks like a number.</p>
+<p><strong>BAD</strong></p>
+<ul>
+<li>'2'-'1'</li>
+<li>'eggs' / 'easy'</li>
+<li>'third' * 'a charm'</li>
+</ul>
+</div><div class="fragment">
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="but-there-are-a-few-exceptions...">But there are a few exceptions...</h2>
+<h3 id="addition">Addition</h3>
+<p>The + operator works with strings: it performs <strong>concatenation</strong>, which means joining the strings by linking them end-to-end.</p>
+<p><strong>For example:</strong></p>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[13]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="n">first</span> <span class="o">=</span> <span class="s">&#39;throat&#39;</span>
+<span class="n">second</span> <span class="o">=</span> <span class="s">&#39;warbler&#39;</span>
+<span class="k">print</span> <span class="n">first</span> <span class="o">+</span> <span class="n">second</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+throatwarbler
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div><div class="fragment">
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Question:</strong> How could I change the code to print &quot;throat warbler&quot;</p>
+</div>
+    </div></section><section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="multiplication">Multiplication</h3>
+<p>The * operator performs repetition on strings.</p>
+<p><strong>For example: </strong> 'Spam' * 3 is 'SpamSpamSpam'.</p>
 </div></section>
+    </section><section>
+    <section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="raw-input">Raw Input</h2>
+<p>It presents a prompt to the user, gets input from the user and returns the data input by the user in a string.</p>
+<p><code>name = raw_input(&quot;What is your name? &quot;)</code></p>
+</div><div class="fragment">
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="exercise">Exercise:</h3>
+<p>Use the above code to ask the user what his or her name is and then print out:</p>
+<p>&quot;Welcome to Computer Science -------&quot;</p>
+</div>
+    </div><div class="fragment">
+    
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="extra-exercise">Extra Exercise:</h3>
+<p>Print out:</p>
+<p>&quot;I can say your name 3 times: ------ ------ ------&quot;</p>
+</div>
+    </div></section>
     </section>
 </div>
 </div>
