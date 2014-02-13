@@ -1,5 +1,27 @@
 # Unit 1 - In class exercises
 
+Try to make your output and questions look as close to the examples as possible! 
+
+## Age Calculator 
+* Ask the user for their name, and age. Print "______ is ___ years old right now."
+* Caculate how old they will be next year. Print "______ will be ___ years old next year."
+* Caculate the year they were born in. Print "______ was born in ____."
+* Caculate the year they will be 100. Print "In the year ____, ______ will be 100 years old"
+* Ask the user for a year. Print the age they will be that year. "______ will be ___ years old in ____"
+
+Sample output:
+```
+What's your name? Tom
+How old are you? 99
+Tom is 99 years old right now.
+Tom will be 100 year old next year.
+Tom was born in 1915.
+In the year 2015, Tom will be 100 years old.
+Pick a year to check Tom's age: 2031
+Tom will be 116 year old in 2031.
+```
+
+
 ## Class Groups
 * Ask the user how many students are in the class and what size groups to make. Print how many groups of that size there would be.
 
@@ -35,7 +57,7 @@ length: 2
 width: 1
 height: 1
 The volume of each item is 2 cubic inches.
-You can fix 8 items in your box.
+You can fit 8 items in your box.
 ```
 
 ## Bill calculator
