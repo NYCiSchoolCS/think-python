@@ -1,6 +1,31 @@
 # Unit 1 - In class exercises
 
-Try to make your output and questions look as close to the examples as possible! 
+Make your output and questions look as close to the examples as you can! 
+
+## Hourly Wadges
+* Ask the user how much they make an hour, and how many hours they work per week.
+* Print how much they will make in a week
+* Print how much they will make in a month.
+
+Sample output:
+```
+How much do you make an hour? 10
+How many hours do you work a week? 6
+You will make $60 a week.
+You will make $240 a month.
+```
+
+## Subway Trips
+* Ask the user how many times they take the subway on week days and on weekend days. 
+* Print how much those tips cost per week.
+(A subway ride is $2.50)
+
+Sample output:
+```
+How many times do you take the subway each week day? 2
+How many times do you take the subway each weekend day? 3
+The subway costs you $12.5 each week.
+```
 
 ## Age Calculator 
 * Ask the user for their name, and age. Print "______ is ___ years old right now."
@@ -14,13 +39,12 @@ Sample output:
 What's your name? Tom
 How old are you? 99
 Tom is 99 years old right now.
-Tom will be 100 year old next year.
+Tom will be 100 years old next year.
 Tom was born in 1915.
 In the year 2015, Tom will be 100 years old.
 Pick a year to check Tom's age: 2031
-Tom will be 116 year old in 2031.
+Tom will be 116 years old in 2031.
 ```
-
 
 ## Class Groups
 * Ask the user how many students are in the class and what size groups to make. Print how many groups of that size there would be.
@@ -39,7 +63,7 @@ How many students are in class today? 10
 How many students should be in each group? 3
 There will be 3 groups of 3 students each.
 There will be 1 studnets left over.
-  ```
+```
 
 ## How many will fit?
 * Ask the user for the length, width, and hight of a box. Print the volume of the box. 
