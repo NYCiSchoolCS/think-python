@@ -1,6 +1,6 @@
 # Unit 1 - In class exercises
 
-Make your output and questions look as close to the examples as you can! 
+Make your output and questions look as close to the examples as you can!
 
 ## Hourly Wadges
 * Ask the user how much they make an hour, and how many hours they work per week.
@@ -16,7 +16,7 @@ You will make $240 a month.
 ```
 
 ## Subway Trips
-* Ask the user how many times they take the subway on week days and on weekend days. 
+* Ask the user how many times they take the subway on week days and on weekend days.
 * Print how much those tips cost per week.
 (A subway ride is $2.50)
 
@@ -27,7 +27,7 @@ How many times do you take the subway each weekend day? 3
 The subway costs you $12.5 each week.
 ```
 
-## Age Calculator 
+## Age Calculator
 * Ask the user for their name, and age. Print "______ is ___ years old right now."
 * Caculate how old they will be next year. Print "______ will be ___ years old next year."
 * Caculate the year they were born in. Print "______ was born in ____."
@@ -66,10 +66,10 @@ There will be 1 studnets left over.
 ```
 
 ## How many will fit?
-* Ask the user for the length, width, and hight of a box. Print the volume of the box. 
+* Ask the user for the length, width, and hight of a box. Print the volume of the box.
 * Ask the user for the length, width, and hight of items to put in the box. Print the volume of the item.
 * Print how many of the item you can fix in the box.
-Sample output:  
+Sample output:
 ```
 Enter the size of your box in inches
 length: 2
@@ -89,7 +89,7 @@ You can fit 8 items in your box.
 * Calculate a 10%, 15%, and 20% tip and print those amounts. Use the format in the example below.
 * Ask the user for a tip amount and print how much they should pay to tip that much.
 
-Sample output:  
+Sample output:
 ```
 How much is the bill? 50
 How many people were eating? 5
@@ -99,4 +99,25 @@ Each of the 5 people eating should pay $10.
 20% tip: $20 ($12 total)
 What percent would you like to tip? 12
 You should pay $11.2
+```
+
+## Square Printer
+
+Print out the following diagram using the the fewest "#" as possible in your code. You can use variables and string operations.
+
+
+```
+##################################
+#          #          #          #
+#          #          #          #
+#          #          #          #
+#          #          #          #
+#          #          #          #
+##################################
+#          #          #          #
+#          #          #          #
+#          #          #          #
+#          #          #          #
+#          #          #          #
+##################################
 ```
