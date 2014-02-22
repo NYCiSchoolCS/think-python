@@ -2563,6 +2563,92 @@ throatwarbler
 <p>&quot;I can say your name 3 times: ------ ------ ------&quot;</p>
 </div>
     </div></section>
+    </section><section>
+    <section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="good-variable-names">Good Variable Names</h1>
+<ul>
+<li>Variable names should be as descriptive as possible
+<ul>
+<li><strong>Good</strong>: days_ate_range, flight_number, car_color</li>
+<li><strong>Bad</strong>: days, dRange, temp, data</li>
+</ul></li>
+<li>The variable name has to be as short as possible.</li>
+<li><strong>Good</strong>: how_long_does_it_take_to_open_the_door, how_big_is_the_material</li>
+<li><p><strong>Bad</strong>: time_to_open_door, material_size.</p></li>
+<li><p>Be consistent</p></li>
+</ul>
+<h3 id="golden-rule-spend-a-few-minutes-thinking-about-your-variable-names.">Golden rule: Spend a few minutes thinking about your variable names.</h3>
+</div></section>
+    </section><section>
+    <section>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="comments">Comments</h1>
+<p>As programs get bigger and more complicated, they get more difficult to read.</p>
+<p>For this reason, it is a good idea to add notes to your programs to explain <strong>in English</strong> what the program is doing.</p>
+<p>These notes are called comments, and they start with the # symbol:</p>
+</div><div class="fragment">
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[17]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="c"># compute the percentage of the hour that has elapsed</span>
+<span class="n">minute</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="n">percentage</span> <span class="o">=</span> <span class="p">(</span><span class="n">minute</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span> <span class="o">/</span> <span class="mi">60</span>
+</pre></div>
+
+</div>
+</div>
+
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="n">minute</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="n">percentage</span> <span class="o">=</span> <span class="p">(</span><span class="n">minute</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span> <span class="o">/</span> <span class="mi">60</span> <span class="c"># percentage of an hour</span>
+</pre></div>
+
+</div>
+</div>
+
+</div>
+    </div></section><section>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[18]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="n">v</span> <span class="o">=</span> <span class="mi">5</span>     <span class="c"># assign 5 to v [THIS COMMENT IS REDUNDANT]</span>
+
+<span class="n">v</span> <span class="o">=</span> <span class="mi">5</span>     <span class="c"># velocity in meters/second. [THIS COMMENT IS USEFUL]</span>
+</pre></div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre>
+</pre></div>
+
+</div>
+</div>
+
+</div></section>
     </section>
 </div>
 </div>
