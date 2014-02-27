@@ -22,7 +22,8 @@ You need 10 bowls and spoons
 You need 5.0 cups of milk and 10 cups of cereal
 ```
 
-## Exercise 3.3 in Think Python
+## Justify Strings
+Base on Exercise 3.3 in Think Python
 
 Python provides a built-in function called `len()` that returns the length of a string, so
 the value of `len('allen')` is 5.
@@ -31,7 +32,16 @@ string with enough leading spaces so that the last letter of the string is in co
 
 Test it on a few strings: your name, `"supercalifragilisticexpialidocious"`, `"cat"`, `"The dog likes the toy"`
 
-Sample output:
+Sample code and output:
+```
+def right_justify(s):
+    #Your code here
+
+right_justify("allen")
+right_justify("supercalifragilisticexpialidocious")
+right_justify("cat")
+right_justify("The dog likes the toy")
+```
 ```
                                                                  allen
                                     supercalifragilisticexpialidocious
@@ -39,6 +49,37 @@ Sample output:
                                                  The dog likes the toy
 ```
 
+Next, write a function named `center_justify` that does the same thing, but centers the string in a column 70 display.
+
+Sample code and output:
+```
+def center_justify(s):
+    #Your code here
+
+right_justify("70 chars |")
+center_justify("allen")
+center_justify("supercalifragilisticexpialidocious")
+center_justify("cat")
+center_justify("The dog likes the toy")
+```
+```
+                                                            70 chars |
+                                 allen
+                  supercalifragilisticexpialidocious
+                                  cat
+                         The dog likes the toy
+```
+
+Use your justify functions to output this demo day invitation!
+```
+                 ** Computer Science Class Demo Day **
+When: 8am Friday
+Where: Room 402
+                          Demos will include:
+                                      Interactive programming projects
+                                                           Live coding
+                                  How to write a 'hello world' program
+```
 
 ## Print a Grid
 Based on Exercise 3.5 in Think Python
