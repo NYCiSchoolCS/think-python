@@ -5,7 +5,7 @@
 2. Write a function called `cook_eggs` that takes a number of eggs and prints how long it will take to make the eggs. Assume that it take 2 minutes to cook each egg.
 3. Write a function called `make_taost` that takes how many pieces of bread you want to make into toast and prints out how much butter and jam you need. Assume you need .5 tablespoons of butter and 1 tablespoon of jam per piece of toast.
 4. Write a function called `get_cereal` that takes the number of bowl of cereal you want and prints out how many bowls and spoons are needed, how much milk is needed and how much cereal is needed. Assume each bowl of cereal needs 1 cup of cereal and .5 cups of milk.
-5. Write a function called `prepare_breakfast`. It should output everything you need to know to make a breakfest with taost, coffee, cereal, and eggs. __It should use the other functions you just wrote__
+5. Write a function called `prepare_breakfast`. It should take the number of people who are eating breakfest, and output everything you need to know to make a breakfest with toast, coffee, cereal, and eggs. __It should use the other functions you just wrote__
 
 ```
 >>> prepare_breakfast(2)
@@ -115,9 +115,8 @@ Once you've finished, change your program to only use 3 `|` characters, 3 `+` ch
 
 Challenge: Use only **2** `|` characters, **2** `+` characters, and **1** `-` character in your program.
 
-_Hint_: to print more than one value on a line, you can print a comma-separated sequence: `print '+', '-'`.  
-If the sequence ends with a comma, Python leaves the line unﬁnished, so the value printed
-next appears on the same line.
+_Hint_: To print more than one value on a line, you can print a comma-separated sequence: `print '+', '-'`.  
+If the sequence ends with a comma, Python leaves the line unﬁnished, so the value printed next appears on the same line.
 ```
 print '+',
 print '-'
@@ -126,7 +125,7 @@ print '-'
 The output of both these statements is `'+ -'`.
 A `print` statement all by itself ends the current line and goes to the next line.
 
-Extra Challenge: Make `print_grid` take another argument for how many columns the table should have. For example, `print_grid(4, 5)` should output: 
+Extra Challenge: Make `print_grid` take another argument for how many columns the grid should have. For example, `print_grid(4, 5)` should output: 
 ```
 +----+----+----+----+----+
 |    |    |    |    |    |
