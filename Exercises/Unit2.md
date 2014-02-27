@@ -5,7 +5,8 @@
 2. Write a function called `cook_eggs` that takes a number of eggs and prints how long it will take to make the eggs. Assume that it take 2 minutes to cook each egg.
 3. Write a function called `make_taost` that takes how many pieces of bread you want to make into toast and prints out how much butter and jam you need. Assume you need .5 tablespoons of butter and 1 tablespoon of jam per piece of toast.
 4. Write a function called `get_cereal` that takes the number of bowl of cereal you want and prints out how many bowls and spoons are needed, how much milk is needed and how much cereal is needed. Assume each bowl of cereal needs 1 cup of cereal and .5 cups of milk.
-5. Write a function called `prepare_breakfast`. It should take the number of people who are eating breakfest, and output everything you need to know to make a breakfest with toast, coffee, cereal, and eggs. __It should use the other functions you just wrote__
+5. Write a function called `make_grits` that takes how many servings of grits to make. It should print how many cups of water and grits is needed, and how long it will take to cook them. It takes 5 cups of water to cook each cup of grits and there is .25 cups of grits in a serving. No matter how much you’re cooking, it always takes 30 mins to cook.
+6. Write a function called `prepare_breakfast`. It should take the number of people who are eating breakfest, and output everything you need to know to make a breakfest with toast, coffee, cereal, grits and eggs. __It should use the other functions you just wrote__
 
 ```
 >>> prepare_breakfast(2)
@@ -14,12 +15,22 @@ It will take you 4 minutes to cook your eggs
 You need 1.0 tablespoons of butter and 2 tablespoons of jam
 You need 2 bowls and spoons
 You need 1.0 cups of milk and 2 cups of cereal
+You need 2.5 cups of water and 0.5 cups of grits and it will take 30 minutes to cook them
 >>> prepare_breakfast(10)
 You need 15.0 cups of water and 10 tablespoons of coffee
 It will take you 20 minutes to cook your eggs
 You need 5.0 tablespoons of butter and 10 tablespoons of jam
 You need 10 bowls and spoons
 You need 5.0 cups of milk and 10 cups of cereal
+You need 12.5 cups of water and 2.5 cups of grits and it will take 30 minutes to cook them
+```
+
+Write a function that makes breakfast the way you like it! For instance, I love grits, but don't care for cereal or toast, so I would like 3 servings of grits but no toast or cereal: 
+```
+def my_breakfast():
+    make_coffee(1)
+    cook_eggs(1)
+    make_grits(3)
 ```
 
 ## Justify Strings
