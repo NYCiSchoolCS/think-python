@@ -16,3 +16,47 @@ Sample output:
                                                                    cat
                                                  The dog likes the toy
 ```
+
+
+## Print a Grid
+Based on Exercise 3.5 in Think Python
+
+1. Write a function that takes a width and draws a 4x4 grid of that width and height 2.  
+
+Sample code and output:
+```
+def def print_grid(width):
+    #Your code here
+
+print_grid(3)
+print_grid(18)
+```
+```
++---+---+
+|   |   |
+|   |   |
++---+---+
+|   |   |
+|   |   |
++---+---+
++------------------+------------------+
+|                  |                  |
+|                  |                  |
++------------------+------------------+
+|                  |                  |
+|                  |                  |
++------------------+------------------+
+```
+2. Use only 3 `|` characters, 3 `+` characters, and 2 `-` characters in your program.
+3. Challenge: Use only **2** `|` characters, **2** `+` characters, and **1** `-` character in your program.
+
+_Hint_: to print more than one value on a line, you can print a comma-separated sequence: `print '+', '-'`.  
+If the sequence ends with a comma, Python leaves the line unﬁnished, so the value printed
+next appears on the same line.
+```
+print '+',
+print '-'
+```
+
+The output of both these statements is `'+ -'`.
+A `print` statement all by itself ends the current line and goes to the next line.
