@@ -48,7 +48,7 @@ print_grid(18)
 +------------------+------------------+
 ```
 
-Once you've finished, change your program to only use 3 `|` characters, 3 `+` characters, and 2 `-` characters.
+Once you've finished, change your program to only use 3 `|` characters, 3 `+` characters, and 2 `-` characters. You may need to add more functions to do this.
 
 Challenge: Use only **2** `|` characters, **2** `+` characters, and **1** `-` character in your program.
 
