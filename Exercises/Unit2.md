@@ -146,3 +146,22 @@ Extra Challenge: Make `print_grid` take another argument for how many columns th
 |    |    |    |    |    |
 +----+----+----+----+----+
 ```
+
+Super Extra Challenge: Make `print_grid` take yet another argument for how many *rows* the grid should have. For example, `print_grid(4, 5, 3)` should output: 
+```
++----+----+----+----+----+
+|    |    |    |    |    |
+|    |    |    |    |    |
++----+----+----+----+----+
+|    |    |    |    |    |
+|    |    |    |    |    |
++----+----+----+----+----+
+|    |    |    |    |    |
+|    |    |    |    |    |
++----+----+----+----+----+
+```
+_Hint_: In python you can have a string with a newline in it by using `\n`. For example `print "Hello\nWorld"` would output
+```
+Hello
+World
+```
