@@ -95,11 +95,11 @@ Where: Room 402
 ## Print a Grid
 Based on Exercise 3.5 in Think Python
 
-Write a function called `print_grid` that takes a width and draws a 4x4 grid of that width and height 2.
+Write a function called `print_grid` that takes a width and draws a 4x4 grid of cell with the given width and height 2.
 
 Sample code and output:
 ```
-def def print_grid(width):
+def print_grid(width):
     #Your code here
 
 print_grid(3)
