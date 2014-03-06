@@ -2,6 +2,8 @@
 
 Write the **function definition** for each of the following problems. No need to write the full function.
 
+Submit to <tealsTeachers@gmail.com>.
+
 ## Examples
 Write the function definition for...
 
