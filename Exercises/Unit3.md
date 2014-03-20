@@ -44,8 +44,8 @@ def countdown(n):
     if n <= 0:
        print "Blastoff!"
     else:
-	print n
-	countdown(n-1)
+       print n
+       countdown(n-1)
 ```
 If n is 0 or negative, it prints "Blastoff!". Otherwise, it prints n and calls the countdown function--itself--with n-1 as an argument.
 
