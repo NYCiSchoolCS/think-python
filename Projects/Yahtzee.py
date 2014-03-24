@@ -83,6 +83,13 @@ def five_of_a_kind_score(d1, d2, d3, d4, d5):
     """
     return 0
 
+def large_straight(d1, d2, d3, d4, d5):
+    """
+    If all five die are in order (i.e. 1,2,3,4 or 2,3,4,5), then you get
+    40 points. Otherwise you get 0 points.
+    """
+    return 0
+
 def chance_score(d1, d2, d3, d4, d5):
     """
     Your score is the sum of all of the die.
