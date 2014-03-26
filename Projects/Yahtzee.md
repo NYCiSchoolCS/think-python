@@ -10,7 +10,7 @@ The scoring combinations have varying point values, some of which are fixed valu
 For all rules, see the official instructions [here](http://www.hasbro.com/common/instruct/Yahtzee.pdf)
 
 ## Instructions
-We wrote some starter code for implementing scoring in Yahtzee. The code is in Yahtzee.py. The code will simulate a rolling the dice and scoring the roll. We wrote the definitions of the scoring functions, but we haven't filled them in yet. That is your job.
+We wrote [some starter code](Yahtzee.py) for implementing scoring in Yahtzee. The code is in Yahtzee.py. The code will simulate a rolling the dice and scoring the roll. We wrote the definitions of the scoring functions, but we haven't filled them in yet. That is your job.
 
 ### Steps
 * Write code to implement the chance_score function.
