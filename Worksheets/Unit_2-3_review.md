@@ -55,7 +55,7 @@
   * 10101
   * 1110000101
   
-1. Evaluate the following satments as true or false based on this image:  
+1. Evaluate the following statements as true or false based on this image:  
   * NOT (SpongeBob is in a bubble)
   * Number of animals in bubbles > 3
   * (Snail is blowing a bubble) OR (Snail is inside a bubble)
