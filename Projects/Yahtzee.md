@@ -19,4 +19,4 @@ We wrote [some starter code](Yahtzee.py) for implementing scoring in Yahtzee. Th
 * Write code to implement the five_of_a_kind function.
 
 
-* Write code to to implement the remaining scofing functions. Think about how you could combine ones_score, twos_score, threes_score etc. into one function?
+* Write code to to implement the remaining scoring functions. Think about how you could combine ones_score, twos_score, threes_score etc. into one function?
