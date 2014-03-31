@@ -14,11 +14,11 @@ Your job is the fill in the ten scoring functions. We wrote the definitions and 
 
 1. **Implement all the scoring functions in Yahtzee.py. (70 pts)**
 
-You will noticed that the code for ones_score, twos_score etc. is very similar. It is always a bad idea to have duplicate code in a program, so your second task is to find a way to simplify the implementation of those functions.
+    You will noticed that the code for ones_score, twos_score etc. is very similar. It is always a bad idea to have duplicate code in a program, so your second task is to find a way to simplify the implementation of those functions.
 
 2. **Write a new function called n_score that combines the functionality of ones_score, twos_score, etc. The n_score function should take d1 through d5 as parameters as well as an integer n. Comment out your old ones_score, twos_score, etc. and rewrite them using n_score. (20 pts)**
 
-While the code so far implements some of the functionality of Yahtzee, there are still more to do before it feels like the real game. Your final task is to implement one of the following extra features.
+     While the code so far implements some of the functionality of Yahtzee, there are still more to do before it feels like the real game. Your final task is to implement one of the following extra features.
 
 3. **Implement at least one extra feature from the following list:**
    - Tell the user what combination would result in the max score. You can use the built in Python function max(x,y,z,..) which takes one of more numbers and returns the number with the greatest value.
