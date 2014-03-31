@@ -1,13 +1,32 @@
-Slides for Intro CS at NYC iSchool
-====================================
+Intro CS at NYC iSchool
+============
+This repository is split into the following directories:
 
-Based on [Think Python](http://www.greenteapress.com/thinkpython/).
+- **Slides**: Daily slides that are based on the [Think Python](http://www.greenteapress.com/thinkpython/) textbook.
+- **Exercises**: In class exercises.
+- **Projects**: Larger multi-day projects.
+- **Worksheets**:
+- **Textbook**:
 
+-------------------------------------------
+## Helpful Commands for Using this Repo
 
-### Convert ipython notebook to HTML
+* Convert ipython notebook to HTML
 
-`ipython nbconvert --to html MyNotebook.ipynb`
+```
+	ipython nbconvert --to html MyNotebook.ipynb
+```
 
-### Convert ipython notebook to *fancy* website
+*  Convert ipython notebook to *fancy* website
 
-`ipython nbconvert --to slides --post serve MyNotebook.ipynb`
+```
+	ipython nbconvert --to slides --post serve MyNotebook.ipynb
+```
+
+* Convert markdown to PDF
+
+```
+	pandoc README.md -o example13.pdf
+```
+
+Follow the pandoc installation instructions [here](http://johnmacfarlane.net/pandoc/installing.html).
