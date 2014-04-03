@@ -13,7 +13,7 @@
   Sample Output:
   ```
   Enter a number: 40
-  780
+  820
   ```
 
 2. Ask the user for every number to add.
