@@ -28,37 +28,49 @@ Enter a number to sum: 8
 
 ### Count down with `for`!
 
-Write a program that asks the user for a number, and then uses a `for` loop to print a count down from that number. Don't forget to launch the rocket at the end!
+1. Write a program that asks the user for a number, and then uses a `for` loop to print a count down from that number. Don't forget to launch the rocket at the end!
+  
+  Sample Output:
+  ```
+  Enter a number: 5
+  5
+  4
+  3
+  2
+  1
+  Blast off!
+  ```
+2. Use the [time.sleep()](https://docs.python.org/2/library/time.html#time.sleep) funtion to wait 1 second between each number. You'll need to add this line to the top of your program first:
+  ```python
+  from time import sleep
+  ```
 
-Sample Output:
-```
-Enter a number: 5
-5
-4
-3
-2
-1
-Blast off!
-```
+  Then you can use the sleep() function in your program! For example, this will print "hello", and then print "good bye" 2 seconds later:
+  ```python
+  print "hello"
+  sleep(2)
+  print "good bye"
+  ```
 
 
 ### Odd or even? Triangular?
 
 1. Loop through numbers from 1 to 50 and print whether they are odd or even.
+  
   Sample Output:
-    ```
-    1 Odd
-    2 Even
-    3 Odd
-    4 Even
-    5 Odd
-    6 Even
-    7 Odd
-    .
-    .
-    .
-    
-    ```
+  ```
+  1 Odd
+  2 Even
+  3 Odd
+  4 Even
+  5 Odd
+  6 Even
+  7 Odd
+  .
+  .
+  .
+  
+  ```
 
 2. The field of number theory deals with numbers and their relationships to each other. Mathematicians studying this have com up with lots of ways to classify numbers besides ood and even. One of these is Triangular.
 
@@ -86,6 +98,7 @@ Blast off!
   ```
   
 3. Add output for isTriangular() in your loop!
+  
   Sample Output:
   ```
   1 Odd
