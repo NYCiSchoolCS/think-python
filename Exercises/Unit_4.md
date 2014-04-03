@@ -2,29 +2,90 @@
 
 ### Sum all the numbers
 
-Write a program that adds the numbers from 0 to 10
+1. Write a program that adds the numbers from 0 to 10
+  
+  Output:
+  ```
+  55
+  ```
+  
+  Now change your program to ask you for a number first, and sum the numbers from 0 to that number.
+  Sample Output:
+  ```
+  Enter a number: 40
+  780
+  ```
 
-Output:
-```
-55
-```
+2. Ask the user for every number to add.
+  Sample Output:
+  ```
+  Enter a number: 3
+  Enter a number to sum: 6
+  Enter a number to sum: 4
+  Enter a number to sum: 8
+  18
+  ```
 
-Now change your program to ask you for a number first, and sum the numbers from 0 to that number.
-Sample Output:
-```
-Enter a number: 40
-780
-```
+2. Add the current sum to each line 
+  Sample Output:
+  ```
+  Enter a number: 3
+  (0) Enter a number to sum: 6
+  (6) Enter a number to sum: 4
+  (10) Enter a number to sum: 8
+  18
+  ```
 
-Next, ask the user for every number to add.
-Sample Output:
-```
-Enter a number: 3
-Enter a number to sum: 6
-Enter a number to sum: 4
-Enter a number to sum: 8
-18
-```
+3. Ask to user for a letter indicating whether to add or subtract the numbers. "A" for add, "S" for subtract. Then do that action with all the numbers they enter!
+  Sample Output:
+  ```
+  Enter A to add, or S to subtract
+  What would you like to do? A
+  How many numbers? 3
+  (0) Enter a number: 3
+  (3) Enter a number: 2
+  (5) Enter a number: 7
+  12
+  ```
+  ```
+  Enter A to add, or S to subtract
+  What would you like to do? S
+  How many numbers? 5
+  (0) Enter a number: 50
+  (-50) Enter a number: 5
+  (-55) Enter a number: 10
+  (-65) Enter a number: 4
+  (-69) Enter a number: 6
+  -75
+  ```
+4. Ask the user each time if they want to add or subtract.
+  Sample Output:
+  ```
+  Enter A to add, or S to subtract
+  How many numbers? 4
+  What would you like to do? A
+  (0) Enter a number: 50
+  What would you like to do? S
+  (50) Enter a number: 10
+  What would you like to do? S
+  (40) Enter a number: 5
+  What would you like to do? A
+  (35) Enter a number: 2
+  37
+  ```
+
+5. Add options for division (Enter "D") and multiplication (Enter "M")
+  ```
+  Enter A to add, or S to subtract, D to divide, M to multiply
+  How many numbers? 3
+  What would you like to do? A
+  (0) Enter a number: 15
+  What would you like to do? D
+  (15) Enter a number: 3
+  What would you like to do? M
+  (5) Enter a number: 10
+  50
+  ```
 
 ### Count down with `for`!
 
@@ -113,4 +174,3 @@ Enter a number to sum: 8
   .
   
   ```
-
