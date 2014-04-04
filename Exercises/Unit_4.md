@@ -29,7 +29,7 @@
 2. Add the current sum to each line 
   Sample Output:
   ```
-  Enter a number: 3
+  How many numbers? 3
   (0) Enter a number to sum: 6
   (6) Enter a number to sum: 4
   (10) Enter a number to sum: 8
@@ -106,7 +106,7 @@
   from time import sleep
   ```
 
-  Then you can use the sleep() function in your program! For example, this will print "hello", and then print "good bye" 2 seconds later:
+  Then you can use the sleep() function in your program! For example, this will print "hello", wait 2 seconds, then print "good bye":
   ```python
   print "hello"
   sleep(2)
@@ -136,7 +136,9 @@
 2. The field of number theory deals with numbers and their relationships to each other. Mathematicians studying this have com up with lots of ways to classify numbers besides ood and even. One of these is Triangular.
 
   Triangular numbers can be aranged in a triangle. Groups of 1, 3, or 6 dots can be arranged in a triangle and so these numbers are triangular numbers. If you've ever gone bowling, you'll recognize that 10 is also triangular.
-
+  
+  ![Triangular numbers](http://www.csee.umbc.edu/courses/undergraduate/CMSC201/spring12/images/triangles.gif)
+  
   It turns out that triangular numbers are the sum of consecutive integers:
   ```
    1  = 1
