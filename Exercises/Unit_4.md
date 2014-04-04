@@ -19,7 +19,7 @@
 2. Ask the user for every number to add.
   Sample Output:
   ```
-  Enter a number: 3
+  How many numbers? 3
   Enter a number to sum: 6
   Enter a number to sum: 4
   Enter a number to sum: 8
