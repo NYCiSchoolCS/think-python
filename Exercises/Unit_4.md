@@ -19,11 +19,12 @@
 2. Ask the user for every number to add.
   Sample Output:
   ```
-  How many numbers? 3
+  How many numbers? 4
   Enter a number to sum: 6
   Enter a number to sum: 4
   Enter a number to sum: 8
-  18
+  Enter a number to sum: 2
+  20
   ```
 
 2. Add the current sum to each line 
