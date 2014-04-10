@@ -9,10 +9,9 @@ X  X
 X  X
 X  X
 X  X
-XXXX
-"""
+XXXX"""
 
-width = 9
+width = max([ len(s) for s in students ])
 desk = "| %s |"
 desk_bar = "-"*(width+4)
 blank = " "*(width+4)
@@ -24,4 +23,4 @@ for row in desk_layout.split('\n'):
     desks += row.replace(" ", blank).replace("X", desk_bar) + '\n'
 
 shuffle(students)
-print desks%tuple([ s.ljust(width) for s in students ])
+print desks%tuple([ s.center(width) for s in students ])
