@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 from random import shuffle
 
 students = ["Oris", "Miguel", "Axel", "Masum", "Daniel", "Mariella", "Eric",\
@@ -13,7 +15,7 @@ XXXX"""
 
 width = max([ len(s) for s in students ])
 desk = "| %s |"
-desk_bar = "-"*(width+4)
+desk_bar = " " + "-"*(width+2) + " "
 blank = " "*(width+4)
 
 desks = ""
