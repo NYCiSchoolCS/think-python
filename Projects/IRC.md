@@ -20,7 +20,7 @@ Here is the information for the IRC server we set up for iSchool:
   When you say "hi", the bot should say "hi!" back and when you say "bye", the bot should say back "bye!".
 
 
-### Guess a Number (70 pts)
+####  Guess a Number (70 pts)
   When you say "I want to play a game", the bot should pick a random number between
 0 and 100. Then it should prompt you to guess a number.
 
@@ -45,5 +45,5 @@ def change_name():
     my_name = "erica greene"
 ```
 
-## Make Your Own (15 pts)
+####  Make Your Own (15 pts)
    Come up with your own idea for a bot. Please let us know what you want to make before you start writing code. It does not need to be complicated, but it does need to be your own idea.
