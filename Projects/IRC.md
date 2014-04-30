@@ -32,9 +32,9 @@ Here is the information for the IRC server we set up for iSchool:
 
 Some useful commands:
 
-* The function randrange takes in two parameters and returns a random integer between them. For example, randrange(-10, 10) will return a random number between -10 and 10.
+* The function randrange takes in two parameters and returns a random integer between them. For example, ```randrange(-10, 10)``` will return a random number between -10 and 10.
 
-* You can check if a string could be turned into an integer by using the isdigit function. For example, "123".isdigit() returns true and "hey1".isdigit() returns false.
+* You can check if a string could be turned into an integer by using the isdigit function. For example, ```"123".isdigit()``` returns true and ```"hey1".isdigit()``` returns false.
 
 * If you want to change a global variable inside a function, you have to add an extra line in your function to reference that variable. See the example below. If you don't have the line "global my_name", then Python will throw an error.
 my_name = "erica"
