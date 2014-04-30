@@ -1,6 +1,5 @@
 import random
 BOT_NAME = "mr_bot"
-number = -1
 
 def run_IRC():
     print "Welcome to (local) IRC!"
