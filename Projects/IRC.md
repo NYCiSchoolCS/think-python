@@ -8,7 +8,7 @@ Here is the information for the IRC server we set up for iSchool:
 * **Public DNS:** ec2-54-84-9-196.compute-1.amazonaws.com
 * **Port:** 6667
 * **IRC Client:** [https://kiwiirc.com/client](https://kiwiirc.com)
-*
+
 
 ## Common IRC commands
 * **/me** Type /me 'does anything'. For example, "/me waves hello" and it will look like: "* erica waves hello"
@@ -39,9 +39,11 @@ Some useful commands:
 * If you want to change a global variable inside a function, you have to add an extra line in your function to reference that variable. See the example below. If you don't have the line "global my_name", then Python will throw an error.
 my_name = "erica"
 
+```python
 def change_name():
     global my_name
     my_name = "erica greene"
+```
 
 ## Make Your Own (15 pts)
    Come up with your own idea for a bot. Please let us know what you want to make before you start writing code. It does not need to be complicated, but it does need to be your own idea.
