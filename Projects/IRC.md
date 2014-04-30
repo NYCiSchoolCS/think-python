@@ -15,8 +15,8 @@ Here is the information for the IRC server we set up for iSchool:
 * **/whois** Type /whois nickname to see a bit more information about another user.
 * **/join** Type '/join something' to join a channel. For example, /join #CS101 will join the channel #CS101.
 
-## Your Bot Assignments (15 pts)
-#### Hello and Goodbye
+## Your Bot Assignments 
+#### Hello and Goodbye (15 pts)
   When you say "hi", the bot should say "hi!" back and when you say "bye", the bot should say back "bye!".
 
 
