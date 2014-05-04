@@ -22,13 +22,13 @@ Here is the information for the IRC server we set up for iSchool:
 
 ####  Guess a Number (70 pts)
   When you say "I want to play a game", the bot should pick a random number between
-0 and 100. Then it should prompt you to guess a number.
+0 and 100. Then it should prompt you to guess a number (e.g. "Great! Try to guess a number"). From now on, if the user guesses a number, the computer should respond the following way:
 
-* If you guess the number, the bot should congratulate you
+* If the guess is correct, the bot should congratulate you
 
-* If you guess a number that is too low, the bot should tell you it's too low
+* If the guess is too low, the bot should tell you it's too low
 
-* If you guess a number that is too high, the bot should tell you it's too high
+* If the guess is too high, the bot should tell you it's too high
 
 Some useful commands:
 
