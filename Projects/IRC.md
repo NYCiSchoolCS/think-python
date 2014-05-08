@@ -67,11 +67,18 @@ Send us an email with the answers to the following questions. Copy and paste the
 
 Example answers:
 
-1. Describe what your bot command will do. 
-   My command lets you play a number game. The bot picks a random number and then you try to guess the number. The bot will tell you if your guess is too high or to low to help you guess. 
-3. How will your bot know you are using/starting your command?  
-   You will say "I want to play a game" Then the bot will pick a random number, and tell you how to play the game. 
-2. Does your command happen with one message, or take many messages? What are the messages?  
-   Many messages, first the "I want to play a game" message, and then all the numbers the user guesses. 
-4. If your command takes many messages, how will your bot know the command is done/over?  
-   The game command is over when you guess the correct number. 
+1. Describe what your bot command will do.
+   
+   _My command lets you play a number game. The bot picks a random number and then you try to guess the number. The bot will tell you if your guess is too high or to low to help you guess._
+
+3. How will your bot know you are using/starting your command?
+   
+   _You will say "I want to play a game" Then the bot will pick a random number, and tell you how to play the game._
+
+2. Does your command happen with one message, or take many messages? What are the messages?
+   
+   _Many messages, first the "I want to play a game" message, and then all the numbers the user guesses._
+
+4. If your command takes many messages, how will your bot know the command is done/over?
+   
+   _The game command is over when you guess the correct number._
