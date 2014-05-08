@@ -69,7 +69,7 @@ Example answers:
 
 1. Describe what your bot command will do.
    
-   _My command lets you play a number game. The bot picks a random number and then you try to guess the number. The bot will tell you if your guess is too high or to low to help you guess._
+   _My command lets you play a number game. The bot picks a random number and then you try to guess the number. The bot will tell you if your guess is too high or too low to help you guess._
 
 3. How will your bot know you are using/starting your command?
    
