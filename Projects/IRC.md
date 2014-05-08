@@ -40,6 +40,7 @@ Some useful commands:
 my_name = "erica"
 
 ```python
+my_name = ""
 def change_name():
     global my_name
     my_name = "erica greene"
