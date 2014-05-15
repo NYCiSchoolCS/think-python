@@ -83,3 +83,23 @@ Example answers:
 4. If your command takes many messages, how will your bot know the command is done/over?
    
    _The game command is over when you guess the correct number._
+
+## Testing
+
+You should always thoroughly test your code, here are some things we would like you to test. Please go through these tests and make sure they all work as expected.
+
+1. Start your bot, type in a random string your bot doesn't recognize. _Your bot should not crash._
+2. Type "I want to play a game". _Your bot should say the game has started._
+3. Type the number 0. _Your bot should say the number is too low._
+4. Type the number 101. _Your bot should say the number is too high._
+5. Type in a random string again. _Your bot should not crash._
+6. Play the rest of the game. _When you guess the right number, your bot should say you won._
+8. Type "I want to play a game" again. _Your bot should say the game has started._
+9. Play the game. _The correct number should be different than the first game._
+
+Bonus Tests! These are "nice to haves" that make things easier on the person using your code.
+
+1. Type "i want to play a game". _Your bot should say the game has started._
+2. Type "I WANT TO PLAY A GAME". _Your bot should say the game has started._
+3. Restart your bot, and enter a number. _Your bot should say there's no game running._
+4. Play the game and then enter the winning number again. _Your bot should say there's no game running._
