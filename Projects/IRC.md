@@ -1,4 +1,5 @@
-#iSchool IRC
+#iSchool IRC Project
+### Due Monday, June 2nd
 
 IRC, short for Internet Relay Chat, is a chat messaging system that allows users to send text messages to each other in discussion forums (called "channels"). IRC was created by Jarkko Oikarinen in August 1988 in Fineland, but it didn't become popular until the early 1990s. The top 100 IRC networks now served more than half a million users at a time.
 
@@ -16,9 +17,9 @@ Here is the information for the IRC server we set up for iSchool:
 * **/join** Type '/join something' to join a channel. For example, /join #CS101 will join the channel #CS101.
 
 ## Your Bot Assignments 
-#### Hello and Goodbye (15 pts)
-  When you say "hi", the bot should say "hi!" back and when you say "bye", the bot should say back "bye!".
-
+#### Hello and Goodbye (10 pts)
+  * When you say "hi", the bot should say "hi!" back **(5 pts)**
+  * When you say "bye", the bot should say back "bye!" **(5 pts)**
 
 ####  Guess a Number (70 pts)
   When you say "I want to play a game", the bot should pick a random number between
@@ -46,7 +47,7 @@ def change_name():
     my_name = "erica greene"
 ```
 
-####  Make Your Own (15 pts)
+####  Make Your Own (20 pts)
    Come up with your own idea for a bot. Please let us know what you want to make before you start writing code. It does not need to be complicated, but it does need to be your own idea.
 
 
