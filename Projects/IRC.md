@@ -1,14 +1,14 @@
 #iSchool IRC Project
 **Due:** Monday, June 2nd
 
-### Hello and Goodbye (10 pts)
+## Hello and Goodbye (10 pts)
   * When the user says "hi", the bot should say "hi!" back.
   * When the user says "bye", the bot should say "bye!" back.
   
 **Points Breakdown**
 * The bot follows the rules outlined above (10 pts)
 
-###  Guess a Number (50 pts)
+##  Guess a Number (50 pts)
 When the user says "I want to play a game", the bot should pick a random number between 0 and 100. Then it should prompt the user to guess a number (e.g. "Great! Try to guess a number").
 
 From then on, the computer should respond the following way every time the user enters a number:
@@ -26,7 +26,7 @@ Once the user starts the game, they should be able to continue to send other mes
 * Your code is clear and simple. **(5 pts)**
 * By the end of class 5/8, you sent us your code, and a short note about how much you have done/things you know are broken. For example, you could say "I have the game working, but my bot crashes if you enter a random string." **(10 pts)**
 
-###  Add Your Own Functionality (40 pts)
+##  Add Your Own Functionality (40 pts)
    Come up with your own idea for a bot. Please let us know what you want to make before you start writing code. It does not need to be complicated, but it does need to be your own idea.
 
 **Points Breakdown**
@@ -35,7 +35,10 @@ Once the user starts the game, they should be able to continue to send other mes
 * Your bot funtions as you describe in your email. **(10 pts)**
 * Your code is clear and simple. You don't have variables or libraries that are never used. If there's anything that is complicated, you add a comment explaining what is going on. **(10 pts)**
 
-**Checkpoint #2 Details:** You need to send us an email with the answers to the following questions. Copy and paste the questions into the email first.
+=========================
+#### Checkpoint #2
+
+You need to send us an email with the answers to the following questions. Copy and paste the questions into the email first.
 
 1. Describe what your bot command will do. 
 3. How will your bot know you are using/starting your command? 
@@ -61,7 +64,7 @@ Example answers:
    _The game command is over when you guess the correct number._
 
 =========================
-### Testing
+#### Testing
 
 You should always thoroughly test your code, here are some things we would like you to test. Please go through these tests and make sure they all work as expected.
 
@@ -82,7 +85,7 @@ Bonus Tests! These are "nice to haves" that make things easier on the person usi
 4. Play the game and then enter the winning number again. _Your bot should say there's no game running._
 
 =========================
-### Some useful commands:
+#### Some useful commands:
 
 * The function randrange takes in two parameters and returns a random integer between them. For example, ```randrange(-10, 10)``` will return a random number between -10 and 10.
 
@@ -98,7 +101,7 @@ def change_name():
     my_name = "erica greene"
 ```
 =========================
-### History of IRC
+#### History of IRC
 IRC, short for Internet Relay Chat, is a chat messaging system that allows users to send text messages to each other in discussion forums (called "channels"). IRC was created by Jarkko Oikarinen in August 1988 in Fineland, but it didn't become popular until the early 1990s. The top 100 IRC networks now served more than half a million users at a time.
 
 Here is the information for the IRC server we set up for iSchool:
