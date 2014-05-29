@@ -1,49 +1,39 @@
 #iSchool IRC Project
 **Due:** Monday, June 2nd
 
-## Your Bot Assignments 
-#### Hello and Goodbye (10 pts)
+The bot should do the following:
+
+### Hello and Goodbye (10 pts)
   * When you say "hi", the bot should say "hi!" back **(5 pts)**
-  * When you say "bye", the bot should say back "bye!" **(5 pts)**
+  * When you say "bye", the bot should say "bye!" back **(5 pts)**
 
-####  Guess a Number (70 pts)
-  When you say "I want to play a game", the bot should pick a random number between
-0 and 100. Then it should prompt you to guess a number (e.g. "Great! Try to guess a number"). From now on, if the user guesses a number, the computer should respond the following way:
+###  Guess a Number (40 pts)
+When the user says "I want to play a game", the bot should pick a random number between 0 and 100. Then it should prompt the user to guess a number (e.g. "Great! Try to guess a number").
 
-* If the guess is correct, the bot should congratulate you
+From then on, the computer should respond the following way every time the user enters a number:
+ * If the guess is correct, the bot should congratulate you 
+ * If the guess is too low, the bot should tell you it's too low
+ * If the guess is too high, the bot should tell you it's too high
 
-* If the guess is too low, the bot should tell you it's too low
+Once the user starts the game, they should be able to continue to send other messages, for example they should be able to say "I want to play a game" and then type "hi" and the bot should respond with "hi!".
 
-* If the guess is too high, the bot should tell you it's too high
+**Points Breakdown**
 
-Some useful commands:
+* The game play follows the rules outlined above. **(20 pts)**
+* You successfully check if the current user message is a number **(5 pts)**
+* The computer picks a random number between 0 - 100 **(5 pts)**
+* Your code is clear and simple. **(10 pts)**
 
-* The function randrange takes in two parameters and returns a random integer between them. For example, ```randrange(-10, 10)``` will return a random number between -10 and 10.
-
-* You can check if a string could be turned into an integer by using the isdigit function. For example, ```"123".isdigit()``` returns true and ```"hey1".isdigit()``` returns false.
-
-* If you want to change a global variable inside a function, you have to add an extra line in your function to reference that variable. See the example below. If you don't have the line "global my_name", then Python will throw an error.
-my_name = "erica"
-
-```python
-my_name = ""
-def change_name():
-    global my_name
-    my_name = "erica greene"
-```
-
-####  Make Your Own (20 pts)
+###  Add Your Own Functionality (20 pts)
    Come up with your own idea for a bot. Please let us know what you want to make before you start writing code. It does not need to be complicated, but it does need to be your own idea.
 
+**Points Breakdown**
 
-
-## Check point 5/8 (30 points total)
-
-#### (10 pts) By the end of class
+* Check point #1 (10 pts) **Due:  By the end of class 5/8**
 
 Send us your code, and a short note about how much you have done/things you know are broken. For example, you could say "I have the game working, but my bot crashes if you enter a random string."
 
-#### (20 pts) By the end of the week 
+**Check point #2 (20 pts)**
 
 Send us an email with the answers to the following questions. Copy and paste the questions into the email first.
 
@@ -70,7 +60,8 @@ Example answers:
    
    _The game command is over when you guess the correct number._
 
-## Testing
+=========================
+### Testing
 
 You should always thoroughly test your code, here are some things we would like you to test. Please go through these tests and make sure they all work as expected.
 
@@ -90,6 +81,22 @@ Bonus Tests! These are "nice to haves" that make things easier on the person usi
 3. Restart your bot, and enter a number. _Your bot should say there's no game running._
 4. Play the game and then enter the winning number again. _Your bot should say there's no game running._
 
+=========================
+### Some useful commands:
+
+* The function randrange takes in two parameters and returns a random integer between them. For example, ```randrange(-10, 10)``` will return a random number between -10 and 10.
+
+* You can check if a string could be turned into an integer by using the isdigit function. For example, ```"123".isdigit()``` returns true and ```"hey1".isdigit()``` returns false.
+
+* If you want to change a global variable inside a function, you have to add an extra line in your function to reference that variable. See the example below. If you don't have the line "global my_name", then Python will throw an error.
+my_name = "erica"
+
+```python
+my_name = ""
+def change_name():
+    global my_name
+    my_name = "erica greene"
+```
 =========================
 ### History of IRC
 IRC, short for Internet Relay Chat, is a chat messaging system that allows users to send text messages to each other in discussion forums (called "channels"). IRC was created by Jarkko Oikarinen in August 1988 in Fineland, but it didn't become popular until the early 1990s. The top 100 IRC networks now served more than half a million users at a time.
