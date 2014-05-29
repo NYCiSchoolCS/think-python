@@ -2,8 +2,7 @@
 
 Write a function validate_cc() that takes a credit card number as input and returns "Not a valid credit card" or "This card is a X" where X is Visa, MasterCard, American Express, or Discover.
 
-You can tell what type of crdit card its from the number. The first digit is different for each type of credit card and they each have rules for the second digit. Here's the rules for Visa, MasterCard, American Express, and Discover:
-
+You can tell the type of a credit card from its the number. The first digit is different for each type of credit card and they each have rules for the second digit. Here's the rules for Visa, MasterCard, American Express, and Discover:
 
  Type  | Starts with...  | Second digit | length 
 ------ | --------------- | ------------ | -------
@@ -29,4 +28,3 @@ Visa | 4222222222222
 ([source](http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm))
 
 Hint: You can use `len()` to check the length of a string and `string[0]` to get the first character of string x.
-  
