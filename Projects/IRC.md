@@ -1,13 +1,14 @@
 #iSchool IRC Project
 **Due:** Monday, June 2nd
 
-The bot should do the following:
-
 ### Hello and Goodbye (10 pts)
-  * When you say "hi", the bot should say "hi!" back **(5 pts)**
-  * When you say "bye", the bot should say "bye!" back **(5 pts)**
+  * When the user says "hi", the bot should say "hi!" back.
+  * When the user says "bye", the bot should say "bye!" back.
+  
+**Points Breakdown**
+* The bot follows the rules outlined above (10 pts)
 
-###  Guess a Number (40 pts)
+###  Guess a Number (50 pts)
 When the user says "I want to play a game", the bot should pick a random number between 0 and 100. Then it should prompt the user to guess a number (e.g. "Great! Try to guess a number").
 
 From then on, the computer should respond the following way every time the user enters a number:
@@ -15,27 +16,26 @@ From then on, the computer should respond the following way every time the user 
  * If the guess is too low, the bot should tell you it's too low
  * If the guess is too high, the bot should tell you it's too high
 
-Once the user starts the game, they should be able to continue to send other messages, for example they should be able to say "I want to play a game" and then type "hi" and the bot should respond with "hi!".
+Once the user starts the game, they should be able to continue to send other messages. For example, the user should be able to say "I want to play a game" and then type "hi" and the bot should respond with "hi!".
 
 **Points Breakdown**
 
-* The game play follows the rules outlined above. **(20 pts)**
+* The bot follows the rules outlined above. **(20 pts)**
+* The computer picks a random number between 0 - 100. Once the user starts a game, that number doesn't change. **(10 pts)**
 * You successfully check if the current user message is a number **(5 pts)**
-* The computer picks a random number between 0 - 100 **(5 pts)**
-* Your code is clear and simple. **(10 pts)**
+* Your code is clear and simple. **(5 pts)**
+* By the end of class 5/8, you sent us your code, and a short note about how much you have done/things you know are broken. For example, you could say "I have the game working, but my bot crashes if you enter a random string." **(10 pts)**
 
-###  Add Your Own Functionality (20 pts)
+###  Add Your Own Functionality (40 pts)
    Come up with your own idea for a bot. Please let us know what you want to make before you start writing code. It does not need to be complicated, but it does need to be your own idea.
 
 **Points Breakdown**
 
-* Check point #1 (10 pts) **Due:  By the end of class 5/8**
+* You send us an email with your bot idea. _Details below under checkpoint #2._ **(20 pts)**
+* Your bot funtions as you describe in your email. **(10 pts)**
+* Your code is clear and simple. You don't have variables or libraries that are never used. If there's anything that is complicated, you add a comment explaining what is going on. **(10 pts)**
 
-Send us your code, and a short note about how much you have done/things you know are broken. For example, you could say "I have the game working, but my bot crashes if you enter a random string."
-
-**Check point #2 (20 pts)**
-
-Send us an email with the answers to the following questions. Copy and paste the questions into the email first.
+**Checkpoint #2 Details:** You need to send us an email with the answers to the following questions. Copy and paste the questions into the email first.
 
 1. Describe what your bot command will do. 
 3. How will your bot know you are using/starting your command? 
