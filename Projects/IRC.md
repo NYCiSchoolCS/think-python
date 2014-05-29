@@ -24,19 +24,19 @@ Once the user starts the game, they should be able to continue to send other mes
 * The computer picks a random number between 0 - 100. Once the user starts a game, that number doesn't change. **(10 pts)**
 * You successfully check if the current user message is a number **(5 pts)**
 * Your code is clear and simple. **(5 pts)**
-* By the end of class 5/8, you sent us your code, and a short note about how much you have done/things you know are broken. For example, you could say "I have the game working, but my bot crashes if you enter a random string." **(10 pts)**
+* **[checkpoint #1]** By the end of class 5/8, you sent us your code, and a short note about how much you have done/things you know are broken. For example, you could say "I have the game working, but my bot crashes if you enter a random string." **(10 pts)**
 
 ##  Add Your Own Functionality (40 pts)
    Come up with your own idea for a bot. Please let us know what you want to make before you start writing code. It does not need to be complicated, but it does need to be your own idea.
 
 **Points Breakdown**
 
-* You send us an email with your bot idea. _Details below under checkpoint #2._ **(20 pts)**
+* **[checkpoint #2]** You send us an email with a detailed description of your bot idea. You should answer the four questions listed below about how your bot will work. If your idea has changed, we need an email with your final idea so we can check if your code works as intented. **(20 pts)**
 * Your bot funtions as you describe in your email. **(10 pts)**
 * Your code is clear and simple. You don't have variables or libraries that are never used. If there's anything that is complicated, you add a comment explaining what is going on. **(10 pts)**
 
 =========================
-#### Checkpoint #2
+#### Checkpoint #2 Details (Bot Proposal)
 
 You need to send us an email with the answers to the following questions. Copy and paste the questions into the email first.
 
