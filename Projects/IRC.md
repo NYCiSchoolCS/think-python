@@ -1,5 +1,4 @@
-#iSchool IRC Project
-**Due:** Monday, June 2nd
+#iSchool IRC Project -- Due 6/2
 
 ## Hello and Goodbye (10 pts)
   * When the user says "hi", the bot should say "hi!" back.
