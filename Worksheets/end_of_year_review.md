@@ -47,15 +47,16 @@ def any_lowercase5(s):
     return True
 ```
 
-### Question 2 (WIP)
-Debug the following code:
+### Question 2 (10 pts)
+The following code throws an error when you try to run it. Explain why there is an error and then describe how you would fix the code.
 
 ```python
-make_tweet(sentence):
+ingredients = ["butter", "apples", "sugar", "nutmeg"]
+quantity = ["one stick", "10", "1 cup"]
 
-    if len(sentence) > 140:
-        return sentence[0:140]
-    else:
-        return sentence
+print "Ingredient:"
+
+for i in range(len(ingredients)):
+    print quantity[i] + " " + ingredients[i]
     
 ```
