@@ -1,5 +1,8 @@
 # Bubble Sort (100 pts total)
 
+Assigned: Wednesday, June 4th.
+Due: Thursday, June 12th.
+
 Implement the bubble sort algorithm in python. The bubble sort algorithm is as follows:
 
 1. Loop over the items in the list.
@@ -9,7 +12,7 @@ Implement the bubble sort algorithm in python. The bubble sort algorithm is as f
 
 ![bubble sort](/images/Bubble-sort-example.gif)
 
-(via [Wikipedia](http://en.wikipedia.org/wiki/Bubble_sort))
+(image via [Wikipedia](http://en.wikipedia.org/wiki/Bubble_sort))
 
 ## Step 1 - Swap Function (15 pts)
 
@@ -24,7 +27,7 @@ For example, if our list was `[A, B, C]` and we called `swap(list, 1, 2)` the th
 
 Implement one iteration of bubble sort.
 That means your code should loop over the list once and swap any consecutive items that are not in the correct order.
-Write this code in the `bubble_sort()` function that's in the starter code.
+Write this code in the `bubble_sort()` function that's in the [starter code](BubbleSort.py).
 
 ## Step 3 - All Iterations (30 pts)
 
@@ -58,7 +61,7 @@ The insertion sort algorithm is as follows:
 
 ![insertion sort](/images/Insertion-sort-example.gif)
 
-(via [Wikipedia](http://en.wikipedia.org/wiki/Insertion_sort))
+(image via [Wikipedia](http://en.wikipedia.org/wiki/Insertion_sort))
 
 ### Extra Credit (Up to 10 pts)
 
