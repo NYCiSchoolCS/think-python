@@ -16,7 +16,7 @@ def print_list(items):
 # This is your part! Fill in the two bubble sort 
 # functinos below.
 
-# Fill this is first. It takes a list, and two indexes
+# Fill this in first. It takes a list, and two indexes
 # and switches the items in those two spots.
 def swap(items, index_1, index_2):
     pass
