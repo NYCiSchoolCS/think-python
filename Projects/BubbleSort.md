@@ -8,11 +8,12 @@ Implement the bubble sort algorithm in python. The bubble sort algorithm is as f
 1. Repeat steps 1-3 until you loop over the entire list without doing any swaps.
 
 ![bubble sort](/images/Bubble-sort-example.gif)
+
 (via [Wikipedia](http://en.wikipedia.org/wiki/Bubble_sort))
 
-_**Start from the [bubble sort starter code](BubbleSort.py).**_
-
 ## Step 1 - Swap Function (15 pts)
+
+_**Start from the [bubble sort starter code](BubbleSort.py).**_
 
 Fill in the code for the `swap(items, index_1, index_1)` function.
 This function takes a list (`items`) and two indexes and switches the values at those loctions.
@@ -56,6 +57,7 @@ The insertion sort algorithm is as follows:
 1. Repeat steps 1 and 2 until you have incerted every item in the list.
 
 ![insertion sort](/images/Insertion-sort-example.gif)
+
 (via [Wikipedia](http://en.wikipedia.org/wiki/Insertion_sort))
 
 ### Extra Credit (Up to 10 pts)
