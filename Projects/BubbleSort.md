@@ -3,6 +3,8 @@
 Assigned: Wednesday, June 4th.
 Due: Thursday, June 12th.
 
+_**Start from the [bubble sort starter code](BubbleSort.py).**_
+
 Implement the bubble sort algorithm in python. The bubble sort algorithm is as follows:
 
 1. Loop over the items in the list.
@@ -15,8 +17,6 @@ Implement the bubble sort algorithm in python. The bubble sort algorithm is as f
 (image via [Wikipedia](http://en.wikipedia.org/wiki/Bubble_sort))
 
 ## Step 1 - Swap Function (15 pts)
-
-_**Start from the [bubble sort starter code](BubbleSort.py).**_
 
 Fill in the code for the `swap(items, index_1, index_1)` function.
 This function takes a list (`items`) and two indexes and switches the values at those loctions.
