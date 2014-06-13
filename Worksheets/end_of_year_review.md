@@ -10,7 +10,13 @@
 
 ## Question 1
 
-The following functions are all intended to check whether a string contains _any_ lowercase letters, a working `any_lowercase()` function would work as follows:
+The following functions are all intended to check whether a string contains _any_ lowercase letters, but at least some of them are wrong! 
+
+**For each function below, decide whether the function works as intended. If not, describe what the function actually does.** 
+
+You can assume that the parameter `s` is always a string and that there are no syntax errors. You may copy these functinos into Spyder to test them, but you will only get credit if you inculde the explanation of what the function actully does .
+
+A working `any_lowercase()` function would work as follows:
 
 Function Call              | Return value |
 -------------------------- | ------------ | 
@@ -18,12 +24,6 @@ Function Call              | Return value |
 `any_lowercase("Hello")`   | True  |
 `any_lowercase("HeLLO")`   | True  |
 `any_lowercase("HELLO")`   | False |
-
-...but at least some of them are wrong!
-
-**For each function below, decide whether the function works as intended. If not, describe what the function actually does.** 
-
-You can assume that the parameter `s` is always a string and that there are no syntax errors. You may copy these functinos into Spyder to test them, but you will only get credit if you inculde the explanation of what the function actully does .
 
 Note, `islower()` is a string method that returns `True` if all characters in the string are lowercase. It returns `False` otherwise. 
 
