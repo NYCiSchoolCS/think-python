@@ -1,9 +1,9 @@
 # String & Lists Worksheet (32 pts total)
 
-**Due:** Friday, June 6 in class
+**Due:** Monday June 16th, emailed by end of day.
 
 **Instructions:**
-* Please submit your answers on a separate piece of paper.
+* Please submit your answers to <tealsteachers@gmail.com>.
 * You can use Python to answer the questions.
 * **Please work on the problems individually.** 
 
