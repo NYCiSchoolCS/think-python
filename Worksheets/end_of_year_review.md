@@ -1,4 +1,4 @@
-# String & Lists Worksheet ( pts total)
+# String & Lists Worksheet (32 pts total)
 
 **Due:** Friday, June 6 in class
 
@@ -73,7 +73,7 @@ def any_lowercase5(s):
     return True
 ```
 
-### Question 2 (10 pts)
+### Question 2 (8 pts)
 The following code throws an error when you try to run it. The error is
 ```
 Traceback (most recent call last):
@@ -99,7 +99,7 @@ for i in range(len(ingredients)):
     
 ```
 
-### Question 3 (10 pts)
+### Question 3 (8 pts)
 
 The following code should print the items in food_list that are capitalized, the code throws an error when you try to run it. The error is 
 ```
@@ -120,5 +120,4 @@ food_list = ["Apple", "pear", "Banana", "mango"]
 for food in range(len(food_list)):
     if food[0].upper() == food[0]:
         print food
-    
 ```
