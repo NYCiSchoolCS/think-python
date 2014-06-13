@@ -16,6 +16,7 @@ Function Call              | Return value |
 -------------------------- | ------------ | 
 `any_lowercase("hello")`   | True  |
 `any_lowercase("Hello")`   | True  |
+`any_lowercase("HeLLO")`   | True  |
 `any_lowercase("HELLO")`   | False |
 
 ...but at least some of them are wrong!
