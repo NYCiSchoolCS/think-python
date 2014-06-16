@@ -90,7 +90,7 @@ IndexError: list index out of range
 1. Explain why there is an error.
 2. Rewrite the code so it runs without errors.
 
-*Note: there are multiple correct answers and your answer should be valid python code! Please type your code answer into Spyder and test that it runs without errors.* 
+*Note: there are multiple correct answers and your answer should be valid python code! Please type your code answer into Spyder or [repl.it](http://repl.it/) and test that it runs without errors.* 
 
 ```python
 ingredients = ["butter", "apples", "sugar", "nutmeg"]
@@ -116,7 +116,7 @@ TypeError: 'int' object has no attribute '__getitem__'
 1. Explain why there is an error. You may need to copy this code into Spyder and run it to figure this out.
 2. Rewrite the code so it runs without errors. 
 
-*Note: there are multiple correct answers and your answer should be valid python code! Please type your corrected code into Spyder and test that it runs without errors.* 
+*Note: there are multiple correct answers and your answer should be valid python code! Please type your corrected code into Spyder or [repl.it](http://repl.it/) and test that it runs without errors.* 
 
 ```python
 food_list = ["Apple", "pear", "Banana", "mango"]
