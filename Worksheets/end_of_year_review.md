@@ -26,7 +26,7 @@ Function Call              | Return value |
 `any_lowercase("HeLLO")`   | True  |
 `any_lowercase("HELLO")`   | False |
 
-Note, `islower()` is a string method that returns `True` if all characters in the string are lowercase. It returns `False` otherwise. Also not the answer is returned, and not printed. To see the return value try `print any_lowercase("hello")`.
+Note, `islower()` is a string method that returns `True` if all characters in the string are lowercase. It returns `False` otherwise. Also not the answer is returned, and not printed. To see the return value try `print any_lowercase("hello")`. 
 
 ### Example:
 
@@ -40,6 +40,8 @@ def any_lowercase1(s):
 ```
 
 This function does not work because it checks only the first character, and then returns True or False. When the function returns, it ends and the rest of the characters are not checked. This would return True when the *first* character is lowercase and False otherwise, even if there was a lower case character later in the sting.
+
+**[Here's how I tested if this function works.](http://repl.it/UIO/3)**
 
 ### (4 pts each)
 
