@@ -26,7 +26,7 @@ Function Call              | Return value |
 `any_lowercase("HeLLO")`   | True  |
 `any_lowercase("HELLO")`   | False |
 
-Note, `islower()` is a string method that returns `True` if all characters in the string are lowercase. It returns `False` otherwise. 
+Note, `islower()` is a string method that returns `True` if all characters in the string are lowercase. It returns `False` otherwise. Also not the answer is returned, and not printed. To see the return value try `print any_lowercase("hello")`.
 
 ### Example:
 
